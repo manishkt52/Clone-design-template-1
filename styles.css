@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(193, 46%, 57%, 0.874);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: red; */
+}
+
+#part2 {
+  height: 100%;
+  width: 68%;
+  background-color: blue;
+  background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(126, 182, 182, 0.357);
+}
+
+#part3 {
+  height: 100%;
+  width: 6%;
+  /* background-color: yellowgreen; */
+}
+
+#text-div {
+  /* height: 300px; */
+  width: 400px;
+  position: absolute;
+  /* background-color: blanchedalmond; */
+  left: 15%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div h1 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 40px;
+}
+
+#small-img-div {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1534008757030-27299c4371b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 75%;
+  top: 65%;
+  transform: translate(0, -75%);
+  /* z-index: -1; */
+  /* background-color: red; */
+}
+
+#overlay-in {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(126, 182, 182, 0.357);
+}
+
+#vertical-text {
+  position: absolute;
+  /* width: 100%; */
+  /* background-color: red; */
+  right: -13.5%;
+  /* transform-origin: 0 0; */
+  transform: translate(0, -450%);
+}
+
+#vertical-text h1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: transparent;
+  letter-spacing: 5px;
+  transform: rotate(90deg);
+  font-family: monument;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+#nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  left: 3%;
+  top: 5%;
+  /* background-color: red; */
+}
+
+#nav img {
+  height: 60px;
+}
+
+#nav h5 {
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
